@@ -1,0 +1,49 @@
+# Godot 4+ specific ignores
+.godot/
+
+# Godot-specific ignores
+*.translation
+
+# Imported textures and samples
+.import/
+
+# Editor settings and cache
+*.cfg~
+*.json~
+*.backup
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build outputs
+export/
+builds/
+*.exe
+*.x86_64
+*.pck
+
+# Android specific
+android/.gradle/
+android/build/
+android/libs/
+android/*.keystore
+
+# iOS specific
+*.xcworkspace
+*.xcuserstate
+
+# Mono/.NET specific (if using C#)
+.mono/
+*.userprefs
+*.sln
+*.csproj
+*.csproj.user
