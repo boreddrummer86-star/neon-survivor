@@ -19,6 +19,7 @@ config/icon="res://icon.svg"
 
 [autoload]
 
+Log="*res://autoloads/logger.gd"
 GameManager="*res://scripts/autoload/game_manager.gd"
 AudioManager="*res://scripts/autoload/audio_manager.gd"
 EventBus="*res://scripts/autoload/event_bus.gd"
